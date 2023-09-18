@@ -1,0 +1,11 @@
+Response
+Certainly! Here's an example of a prompt that requests a Language Model (LLM) to read documents from provided URLs:
+
+"Please use the following URLs to access and read the documents. Summarize the key points and provide a brief analysis of each document's main arguments and findings. Make sure to extract relevant data and insights for our research project:
+
+URL: [Insert URL 1]
+URL: [Insert URL 2]
+URL: [Insert URL 3]
+Please ensure you comprehensively review the content from these URLs and provide a well-structured summary of each document, highlighting any significant information that can contribute to our research."
+
+This prompt instructs the LLM to access and analyze documents from specific URLs, extracting key information and providing summaries and analysis for each document. You can customize the URLs and additional instructions as needed for your specific task.

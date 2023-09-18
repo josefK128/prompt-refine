@@ -1,0 +1,5 @@
+nlp_filter module running in diagnostics mode as __main__
+Current Directory C:\rudolph\ai\GPT-engineer\projects\prompt-refine
+
+
++++++++++++ nlp_filter +++++++++++++++++++++

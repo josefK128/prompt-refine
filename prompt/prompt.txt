@@ -1,0 +1,2 @@
+Explain thermal systems and entropy and how irreversability of entropy 
+is related to quantum measurement.

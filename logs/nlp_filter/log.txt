@@ -1,0 +1,133 @@
+nlp_filter module running in diagnostics mode as __main__
+Current Directory C:\rudolph\ai\GPT-engineer\projects\prompt-refine
+
+
++++++++++++ nlp_filter +++++++++++++++++++++
+
+prompt_file = <_io.TextIOWrapper name='C:\\rudolph\\ai\\GPT-engineer\\projects\\prompt-refine/prompt/prompt.json' mode='r' encoding='cp1252'>
+prompt_data = {'text': 'Define the difference between farther and further.\n', '_text': ''}
+prompt_data['text'] = Define the difference between farther and further.
+
+lowercase, s = define the difference between farther and further.
+
+
+filter: detected 0 anomaly(ies)!!
+name initials periods removed. s = define the difference between farther and further.
+
+
+filter: detected 0 anomaly(ies)!!
+numbered citations removed. s = define the difference between farther and further.
+
+
+punctuation removed s = define the difference between farther and further
+
+
+initially wordlist = ['define', 'the', 'difference', 'between', 'farther', 'and', 'further']
+stop_words removed: wordlist = ['define', 'difference', 'farther']
+stemming: wordlist = ['defin', 'differ', 'farther']
+re-joined string _s =  defin differ farther
+
+
+***********************************************
+
+
+prompt_data = {'text': 'Define the difference between farther and further.\n', '_text': ' defin differ farther'}
+
+file_path = C:\rudolph\ai\GPT-engineer\projects\prompt-refine/corpus/physics.hist-ph-test
+lowercase, s = a form of landauer's principle is shown to hold for thermal systems by
+reference to the joint entropy associated with conjugate observables. it is
+shown that the source of the compensating entropy for irreversible physical
+processes is due to the irreducible uncertainty attending values of such
+mutually incompatible observables. the relevant irreversibility is argued to be
+that of quantum measurement rather than erasure of classical memory devices, as
+commonly assumed.
+
+filter: detected 0 anomaly(ies)!!
+name initials periods removed. s = a form of landauer's principle is shown to hold for thermal systems by
+reference to the joint entropy associated with conjugate observables. it is
+shown that the source of the compensating entropy for irreversible physical
+processes is due to the irreducible uncertainty attending values of such
+mutually incompatible observables. the relevant irreversibility is argued to be
+that of quantum measurement rather than erasure of classical memory devices, as
+commonly assumed.
+
+filter: detected 0 anomaly(ies)!!
+numbered citations removed. s = a form of landauer's principle is shown to hold for thermal systems by
+reference to the joint entropy associated with conjugate observables. it is
+shown that the source of the compensating entropy for irreversible physical
+processes is due to the irreducible uncertainty attending values of such
+mutually incompatible observables. the relevant irreversibility is argued to be
+that of quantum measurement rather than erasure of classical memory devices, as
+commonly assumed.
+
+punctuation removed s = a form of landauers principle is shown to hold for thermal systems by
+reference to the joint entropy associated with conjugate observables it is
+shown that the source of the compensating entropy for irreversible physical
+processes is due to the irreducible uncertainty attending values of such
+mutually incompatible observables the relevant irreversibility is argued to be
+that of quantum measurement rather than erasure of classical memory devices as
+commonly assumed
+
+initially wordlist = ['a', 'form', 'of', 'landauers', 'principle', 'is', 'shown', 'to', 'hold', 'for', 'thermal', 'systems', 'by', 'reference', 'to', 'the', 'joint', 'entropy', 'associated', 'with', 'conjugate', 'observables', 'it', 'is', 'shown', 'that', 'the', 'source', 'of', 'the', 'compensating', 'entropy', 'for', 'irreversible', 'physical', 'processes', 'is', 'due', 'to', 'the', 'irreducible', 'uncertainty', 'attending', 'values', 'of', 'such', 'mutually', 'incompatible', 'observables', 'the', 'relevant', 'irreversibility', 'is', 'argued', 'to', 'be', 'that', 'of', 'quantum', 'measurement', 'rather', 'than', 'erasure', 'of', 'classical', 'memory', 'devices', 'as', 'commonly', 'assumed']
+stop_words removed: wordlist = ['form', 'landauers', 'principle', 'shown', 'hold', 'thermal', 'systems', 'reference', 'joint', 'entropy', 'associated', 'conjugate', 'observables', 'shown', 'source', 'compensating', 'entropy', 'irreversible', 'physical', 'processes', 'due', 'irreducible', 'uncertainty', 'attending', 'values', 'mutually', 'incompatible', 'observables', 'relevant', 'irreversibility', 'argued', 'quantum', 'measurement', 'rather', 'erasure', 'classical', 'memory', 'devices', 'commonly', 'assumed']
+stemming: wordlist = ['form', 'landauer', 'principl', 'shown', 'hold', 'thermal', 'system', 'refer', 'joint', 'entropi', 'associ', 'conjug', 'observ', 'shown', 'sourc', 'compens', 'entropi', 'irrevers', 'physic', 'process', 'due', 'irreduc', 'uncertainti', 'attend', 'valu', 'mutual', 'incompat', 'observ', 'relev', 'irrevers', 'argu', 'quantum', 'measur', 'rather', 'erasur', 'classic', 'memori', 'devic', 'commonli', 'assum']
+re-joined string _s =  form landauer principl shown hold thermal system refer joint entropi associ conjug observ shown sourc compens entropi irrevers physic process due irreduc uncertainti attend valu mutual incompat observ relev irrevers argu quantum measur rather erasur classic memori devic commonli assum
+
+file_path = C:\rudolph\ai\GPT-engineer\projects\prompt-refine/corpus/physics.hist-ph-test
+lowercase, s = david bohm has put forward the first deterministic interpretation of quantum
+physics, and for this he seems to be regarded as a champion of determinism by
+physicists (both his contemporaries and the supporters of his interpretation,
+the so-called "bohmians") as well as by historians of physics. the standard
+narrative is that he underwent a "conversion" from being a supporter of bohr to
+being a staunch determinist, due to his interaction with einstein and his
+commitment to marxism. here we show that bohm actually upheld with continuity
+throughout his career some philosophical tenets that included a strong
+rejection of mechanistic determinism. as such, we conclude that bohm was never
+a bohmian and that his philosophical views have been largely misinterpreted.
+
+filter: detected 0 anomaly(ies)!!
+name initials periods removed. s = david bohm has put forward the first deterministic interpretation of quantum
+physics, and for this he seems to be regarded as a champion of determinism by
+physicists (both his contemporaries and the supporters of his interpretation,
+the so-called "bohmians") as well as by historians of physics. the standard
+narrative is that he underwent a "conversion" from being a supporter of bohr to
+being a staunch determinist, due to his interaction with einstein and his
+commitment to marxism. here we show that bohm actually upheld with continuity
+throughout his career some philosophical tenets that included a strong
+rejection of mechanistic determinism. as such, we conclude that bohm was never
+a bohmian and that his philosophical views have been largely misinterpreted.
+
+filter: detected 0 anomaly(ies)!!
+numbered citations removed. s = david bohm has put forward the first deterministic interpretation of quantum
+physics, and for this he seems to be regarded as a champion of determinism by
+physicists (both his contemporaries and the supporters of his interpretation,
+the so-called "bohmians") as well as by historians of physics. the standard
+narrative is that he underwent a "conversion" from being a supporter of bohr to
+being a staunch determinist, due to his interaction with einstein and his
+commitment to marxism. here we show that bohm actually upheld with continuity
+throughout his career some philosophical tenets that included a strong
+rejection of mechanistic determinism. as such, we conclude that bohm was never
+a bohmian and that his philosophical views have been largely misinterpreted.
+
+punctuation removed s = david bohm has put forward the first deterministic interpretation of quantum
+physics and for this he seems to be regarded as a champion of determinism by
+physicists both his contemporaries and the supporters of his interpretation
+the socalled bohmians as well as by historians of physics the standard
+narrative is that he underwent a conversion from being a supporter of bohr to
+being a staunch determinist due to his interaction with einstein and his
+commitment to marxism here we show that bohm actually upheld with continuity
+throughout his career some philosophical tenets that included a strong
+rejection of mechanistic determinism as such we conclude that bohm was never
+a bohmian and that his philosophical views have been largely misinterpreted
+
+initially wordlist = ['david', 'bohm', 'has', 'put', 'forward', 'the', 'first', 'deterministic', 'interpretation', 'of', 'quantum', 'physics', 'and', 'for', 'this', 'he', 'seems', 'to', 'be', 'regarded', 'as', 'a', 'champion', 'of', 'determinism', 'by', 'physicists', 'both', 'his', 'contemporaries', 'and', 'the', 'supporters', 'of', 'his', 'interpretation', 'the', 'socalled', 'bohmians', 'as', 'well', 'as', 'by', 'historians', 'of', 'physics', 'the', 'standard', 'narrative', 'is', 'that', 'he', 'underwent', 'a', 'conversion', 'from', 'being', 'a', 'supporter', 'of', 'bohr', 'to', 'being', 'a', 'staunch', 'determinist', 'due', 'to', 'his', 'interaction', 'with', 'einstein', 'and', 'his', 'commitment', 'to', 'marxism', 'here', 'we', 'show', 'that', 'bohm', 'actually', 'upheld', 'with', 'continuity', 'throughout', 'his', 'career', 'some', 'philosophical', 'tenets', 'that', 'included', 'a', 'strong', 'rejection', 'of', 'mechanistic', 'determinism', 'as', 'such', 'we', 'conclude', 'that', 'bohm', 'was', 'never', 'a', 'bohmian', 'and', 'that', 'his', 'philosophical', 'views', 'have', 'been', 'largely', 'misinterpreted']
+stop_words removed: wordlist = ['david', 'bohm', 'put', 'forward', 'first', 'deterministic', 'interpretation', 'quantum', 'physics', 'seems', 'regarded', 'champion', 'determinism', 'physicists', 'contemporaries', 'supporters', 'interpretation', 'socalled', 'bohmians', 'well', 'historians', 'physics', 'standard', 'narrative', 'underwent', 'conversion', 'supporter', 'bohr', 'staunch', 'determinist', 'due', 'interaction', 'einstein', 'commitment', 'marxism', 'show', 'bohm', 'actually', 'upheld', 'continuity', 'throughout', 'career', 'philosophical', 'tenets', 'included', 'strong', 'rejection', 'mechanistic', 'determinism', 'conclude', 'bohm', 'never', 'bohmian', 'philosophical', 'views', 'largely', 'misinterpreted']
+stemming: wordlist = ['david', 'bohm', 'put', 'forward', 'first', 'determinist', 'interpret', 'quantum', 'physic', 'seem', 'regard', 'champion', 'determin', 'physicist', 'contemporari', 'support', 'interpret', 'socal', 'bohmian', 'well', 'historian', 'physic', 'standard', 'narr', 'underw', 'convers', 'support', 'bohr', 'staunch', 'determinist', 'due', 'interact', 'einstein', 'commit', 'marxism', 'show', 'bohm', 'actual', 'upheld', 'continu', 'throughout', 'career', 'philosoph', 'tenet', 'includ', 'strong', 'reject', 'mechanist', 'determin', 'conclud', 'bohm', 'never', 'bohmian', 'philosoph', 'view', 'larg', 'misinterpret']
+re-joined string _s =  david bohm put forward first determinist interpret quantum physic seem regard champion determin physicist contemporari support interpret socal bohmian well historian physic standard narr underw convers support bohr staunch determinist due interact einstein commit marxism show bohm actual upheld continu throughout career philosoph tenet includ strong reject mechanist determin conclud bohm never bohmian philosoph view larg misinterpret
+
+
+************************************************
+
+urls = ['C:\\rudolph\\ai\\GPT-engineer\\projects\\prompt-refine/prompt/prompt.json', 'http://arxiv.org/pdf/2307.02643v1', 'http://arxiv.org/pdf/2307.05611v1']
+
+_texts = [' defin differ farther', ' form landauer principl shown hold thermal system refer joint entropi associ conjug observ shown sourc compens entropi irrevers physic process due irreduc uncertainti attend valu mutual incompat observ relev irrevers argu quantum measur rather erasur classic memori devic commonli assum', ' david bohm put forward first determinist interpret quantum physic seem regard champion determin physicist contemporari support interpret socal bohmian well historian physic standard narr underw convers support bohr staunch determinist due interact einstein commit marxism show bohm actual upheld continu throughout career philosoph tenet includ strong reject mechanist determin conclud bohm never bohmian philosoph view larg misinterpret']
